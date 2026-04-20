@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farhan V. M. - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, .serif { font-family: 'Merriweather', serif; }
+        
+        /* Custom scrollbar for a premium feel */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f5f9; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased overflow-x-hidden">
+
+    <nav class="bg-white/80 backdrop-blur-md shadow-sm py-4 sticky top-0 z-50 transition-all duration-300">
+        <div class="max-w-6xl mx-auto px-6 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold tracking-tight text-slate-900 serif hover:text-blue-600 transition-colors">FARHAN V. M.</a>
+            <div class="hidden md:flex space-x-6 text-sm font-medium text-slate-600 lg:space-x-8">
+                <a href="#about" class="hover:text-blue-600 transition-colors">About</a>
+                <a href="#experience" class="hover:text-blue-600 transition-colors">Experience</a>
+                <a href="#publications" class="hover:text-blue-600 transition-colors">Publications</a>
+                <a href="#fdp" class="hover:text-blue-600 transition-colors">FDP</a>
+                <a href="#contact" class="hover:text-blue-600 transition-colors">Contact</a>
+                <a href="#core-skills" class="hover:text-blue-600 transition-colors">Skills</a>
+                <a href="#core-skills" class="hover:text-black-900 transition-colors">FASTUDY</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-24 md:py-32 relative overflow-hidden">
+        <div class="absolute top-0 left-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div>
+        
+        <div class="max-w-6xl mx-auto px-6 flex flex-col-reverse md:flex-row items-center gap-12 relative z-10">
+            <div class="flex-1 text-center md:text-left">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4" data-aos="zoom-in">Farhan V. M.</h1>
+                <p class="text-xl md:text-2xl text-blue-400 font-medium mb-2" data-aos="zoom-in" data-aos-delay="100">Head, Department of Computer Science & Assistant Professor</p>
+                <p class="text-lg md:text-xl text-emerald-400 font-medium mb-6" data-aos="zoom-in" data-aos-delay="150">PhD Scholar</p>
+                <p class="text-slate-300 max-w-xl mb-8 leading-relaxed mx-auto md:mx-0 text-lg" data-aos="zoom-in" data-aos-delay="200">
+                    An enthusiastic and dedicated educator committed to creating an engaging and inclusive classroom environment that motivates students to reach their full potential.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4" data-aos="zoom-in" data-aos-delay="300">
+                    <a href="#contact" class="w-full sm:w-auto bg-blue-600 hover:bg-blue-500 text-white px-8 py-3.5 rounded-lg font-medium transition-all duration-300 shadow-[0_0_20px_rgba(37,99,235,0.3)] hover:shadow-[0_0_25px_rgba(37,99,235,0.5)] transform hover:-translate-y-1 text-center">Contact Me</a>
+                    
+                    <a href="https://youtube.com/@farhan-xo3ch?si=m5CZUGKUPqswpSXa" target="_blank" class="w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white border border-white/20 px-8 py-3.5 rounded-lg font-medium transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-3 backdrop-blur-sm">
+                        <svg class="w-6 h-6 text-red-500" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg>
+                        YouTube Channel
+                    </a>
+                </div>
+            </div>
+            <div class="w-56 h-56 md:w-80 md:h-80 bg-slate-800 rounded-full border-4 border-slate-600/50 flex items-center justify-center overflow-hidden shrink-0 shadow-2xl relative group" data-aos="zoom-in" data-aos-delay="200">
+                <div class="absolute inset-0 bg-blue-500/20 group-hover:bg-transparent transition-all duration-500 z-10"></div>
+                <img src="farhan-profile.jpg" alt="Farhan V. M." class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                <span style="display:none;" class="text-slate-400">Insert Profile Image</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-20 grid grid-cols-1 lg:grid-cols-3 gap-16">
+        
+        <div class="lg:col-span-1 space-y-16">
+            
+            <section id="about" data-aos="zoom-in">
+                <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-8 h-1 bg-blue-600 rounded-full"></span> Profile Summary
+                </h2>
+                <p class="text-slate-600 leading-relaxed text-lg">
+                    I am an enthusiastic and dedicated educator, excited to embark on my teaching journey. I am committed to creating an engaging and inclusive classroom environment that motivates students to reach their full potential. With a passion for continuous learning, I strive to foster growth and inspire my students academically and personally. I am also a PhD scholar.
+                </p>
+            </section>
+
+            <section data-aos="zoom-in">
+                <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-8 h-1 bg-blue-600 rounded-full"></span> Core Skills
+                </h2>
+                <div class="flex flex-wrap gap-3">
+                    <span class="bg-white border border-slate-200 text-slate-700 px-4 py-2 rounded-lg text-sm font-medium shadow-sm hover:border-blue-300 hover:text-blue-600 hover:scale-105 transition-all cursor-default">Python Programming</span>
+                    <span class="bg-white border border-slate-200 text-slate-700 px-4 py-2 rounded-lg text-sm font-medium shadow-sm hover:border-blue-300 hover:text-blue-600 hover:scale-105 transition-all cursor-default">C Programming</span>
+                    <span class="bg-white border border-slate-200 text-slate-700 px-4 py-2 rounded-lg text-sm font-medium shadow-sm hover:border-blue-300 hover:text-blue-600 hover:scale-105 transition-all cursor-default">Java</span>
+                    <span class="bg-white border border-slate-200 text-slate-700 px-4 py-2 rounded-lg text-sm font-medium shadow-sm hover:border-blue-300 hover:text-blue-600 hover:scale-105 transition-all cursor-default">Technology Integration</span>
+                    <span class="bg-white border border-slate-200 text-slate-700 px-4 py-2 rounded-lg text-sm font-medium shadow-sm hover:border-blue-300 hover:text-blue-600 hover:scale-105 transition-all cursor-default">Student Engagement</span>
+                    <span class="bg-white border border-slate-200 text-slate-700 px-4 py-2 rounded-lg text-sm font-medium shadow-sm hover:border-blue-300 hover:text-blue-600 hover:scale-105 transition-all cursor-default">Communication Skills</span>
+                    <span class="bg-white border border-slate-200 text-slate-700 px-4 py-2 rounded-lg text-sm font-medium shadow-sm hover:border-blue-300 hover:text-blue-600 hover:scale-105 transition-all cursor-default">Problem Solving</span>
+                    <span class="bg-white border border-slate-200 text-slate-700 px-4 py-2 rounded-lg text-sm font-medium shadow-sm hover:border-blue-300 hover:text-blue-600 hover:scale-105 transition-all cursor-default">Mentoring</span>
+                    <span class="bg-white border border-slate-200 text-slate-700 px-4 py-2 rounded-lg text-sm font-medium shadow-sm hover:border-blue-300 hover:text-blue-600 hover:scale-105 transition-all cursor-default">Strong Work Ethic</span>
+                </div>
+            </section>
+
+            <section data-aos="zoom-in">
+                <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-8 h-1 bg-red-600 rounded-full"></span> Media
+                </h2>
+                <a href="https://youtube.com/@farhan-xo3ch?si=m5CZUGKUPqswpSXa" target="_blank" class="flex items-center justify-between bg-white p-5 rounded-xl border border-slate-100 shadow-sm hover:shadow-lg hover:border-red-200 transition-all duration-300 group">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-red-50 rounded-full flex items-center justify-center group-hover:bg-red-600 transition-colors">
+                            <svg class="w-6 h-6 text-red-600 group-hover:text-white transition-colors" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-slate-900 group-hover:text-red-600 transition-colors">YouTube Channel</h3>
+                            <p class="text-sm text-slate-500">Watch Educational Content</p>
+                        </div>
+                    </div>
+                    <svg class="w-5 h-5 text-slate-400 group-hover:text-red-500 transition-colors transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                </a>
+            </section>
+
+            <section data-aos="zoom-in">
+                <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                    <span class="w-8 h-1 bg-blue-600 rounded-full"></span> Languages
+                </h2>
+                <ul class="space-y-4 text-slate-600 font-medium bg-white p-6 rounded-xl border border-slate-100 shadow-sm">
+                    <li class="flex justify-between items-center border-b border-slate-100 pb-2">English <span class="text-blue-600 text-sm bg-blue-50 px-3 py-1 rounded-full">Fluent</span></li>
+                    <li class="flex justify-between items-center border-b border-slate-100 pb-2">Malayalam <span class="text-blue-600 text-sm bg-blue-50 px-3 py-1 rounded-full">Native</span></li>
+                    <li class="flex justify-between items-center border-b border-slate-100 pb-2">Tamil <span class="text-slate-500 text-sm bg-slate-100 px-3 py-1 rounded-full">Proficient</span></li>
+                    <li class="flex justify-between items-center">Hindi <span class="text-slate-500 text-sm bg-slate-100 px-3 py-1 rounded-full">Proficient</span></li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="lg:col-span-2 space-y-16">
+            
+            <section id="experience">
+                <h2 class="text-3xl font-bold text-slate-900 mb-10 flex items-center gap-4" data-aos="zoom-in">
+                    <span class="w-12 h-1 bg-blue-600 rounded-full"></span> Professional Experience
+                </h2>
+                
+                <div class="space-y-8 relative before:absolute before:inset-0 before:ml-2 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-blue-600 before:via-slate-300 before:to-transparent">
+                    
+                    <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active" data-aos="zoom-in-up">
+                        <div class="flex items-center justify-center w-5 h-5 rounded-full border-4 border-white bg-blue-600 text-slate-500 shadow-md shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10 transition-transform group-hover:scale-125"></div>
+                        <div class="w-[calc(100%-2.5rem)] md:w-[calc(50%-2rem)] bg-white p-8 rounded-xl border border-slate-100 shadow-sm ml-4 md:ml-0 md:group-odd:mr-8 md:group-even:ml-8 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                            <span class="inline-block px-3 py-1 bg-blue-50 text-blue-600 text-xs font-bold rounded-full mb-4">2023 - Present</span>
+                            <h3 class="font-bold text-xl text-slate-900 mb-1">Head, Department of Computer Science</h3>
+                            <p class="text-slate-500 font-medium text-sm">Al Shifa College of Arts and Science, Perinthalmanna</p>
+                        </div>
+                    </div>
+
+                    <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active" data-aos="zoom-in-up" data-aos-delay="100">
+                        <div class="flex items-center justify-center w-5 h-5 rounded-full border-4 border-white bg-slate-300 group-hover:bg-blue-400 text-slate-500 shadow-md shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10 transition-all duration-300"></div>
+                        <div class="w-[calc(100%-2.5rem)] md:w-[calc(50%-2rem)] bg-white p-8 rounded-xl border border-slate-100 shadow-sm ml-4 md:ml-0 md:group-odd:mr-8 md:group-even:ml-8 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                            <span class="inline-block px-3 py-1 bg-slate-100 text-slate-600 text-xs font-bold rounded-full mb-4">2019 - 2023</span>
+                            <h3 class="font-bold text-xl text-slate-900 mb-1">Assistant Professor in Computer Science</h3>
+                            <p class="text-slate-500 font-medium text-sm">Golden Hills Arts and Science College, Koduvally</p>
+                        </div>
+                    </div>
+
+                    <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active" data-aos="zoom-in-up" data-aos-delay="200">
+                        <div class="flex items-center justify-center w-5 h-5 rounded-full border-4 border-white bg-slate-300 group-hover:bg-blue-400 text-slate-500 shadow-md shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10 transition-all duration-300"></div>
+                        <div class="w-[calc(100%-2.5rem)] md:w-[calc(50%-2rem)] bg-white p-8 rounded-xl border border-slate-100 shadow-sm ml-4 md:ml-0 md:group-odd:mr-8 md:group-even:ml-8 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                            <span class="inline-block px-3 py-1 bg-slate-100 text-slate-600 text-xs font-bold rounded-full mb-4">2019 - 2023</span>
+                            <h3 class="font-bold text-xl text-slate-900 mb-1">Technology Head</h3>
+                            <p class="text-slate-500 font-medium text-sm">Yohoho India LLP</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="publications">
+                <h2 class="text-3xl font-bold text-slate-900 mb-10 flex items-center gap-4" data-aos="zoom-in">
+                    <span class="w-12 h-1 bg-blue-600 rounded-full"></span> Publications
+                </h2>
+                <div class="bg-white p-8 rounded-xl border border-slate-100 shadow-sm hover:shadow-lg hover:border-emerald-200 transition-all duration-300 group" data-aos="zoom-in-up">
+                    <div class="flex flex-col sm:flex-row items-start gap-6">
+                        <div class="w-16 h-16 bg-emerald-50 text-emerald-600 rounded-lg flex items-center justify-center shrink-0 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                        </div>
+                        <div>
+                            <span class="inline-block px-3 py-1 bg-emerald-50 text-emerald-700 text-xs font-bold rounded-full mb-3">Published Book</span>
+                            <h3 class="font-bold text-2xl text-slate-900 mb-2">Foundations of Data Science</h3>
+                            <p class="text-slate-500 mb-5 font-medium leading-relaxed">A comprehensive educational resource exploring the core principles, methodologies, and practical applications within the rapidly evolving field of Data Science.</p>
+                            <a href="https://amzn.in/d/0alpeh0z" target="_blank" class="inline-flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-white px-5 py-2.5 rounded-lg font-medium transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5">
+                                Purchase on Amazon
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="education">
+                <h2 class="text-3xl font-bold text-slate-900 mb-10 flex items-center gap-4" data-aos="zoom-in">
+                    <span class="w-12 h-1 bg-blue-600 rounded-full"></span> Education
+                </h2>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-white p-8 rounded-xl border border-slate-100 shadow-sm hover:shadow-lg hover:border-blue-100 transition-all duration-300 group" data-aos="zoom-in-up">
+                        <div class="w-12 h-12 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14v6"></path></svg>
+                        </div>
+                        <h3 class="font-bold text-xl text-slate-900 mb-2">Master of Computer Application</h3>
+                        <p class="text-slate-500 mb-4 font-medium">Anna University</p>
+                        <span class="inline-block bg-slate-100 text-slate-600 text-xs px-3 py-1 rounded-full font-bold">2013 - 2016</span>
+                    </div>
+                    
+                    <div class="bg-white p-8 rounded-xl border border-slate-100 shadow-sm hover:shadow-lg hover:border-blue-100 transition-all duration-300 group" data-aos="zoom-in-up" data-aos-delay="100">
+                        <div class="w-12 h-12 bg-slate-50 text-slate-500 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14v6"></path></svg>
+                        </div>
+                        <h3 class="font-bold text-xl text-slate-900 mb-2">Bachelor of Computer Application</h3>
+                        <p class="text-slate-500 mb-4 font-medium">University of Calicut</p>
+                        <span class="inline-block bg-slate-100 text-slate-600 text-xs px-3 py-1 rounded-full font-bold">2010 - 2013</span>
+                    </div>
+                </div>
+            </section>
+
+            <section id="fdp">
+                <h2 class="text-3xl font-bold text-slate-900 mb-10 flex items-center gap-4" data-aos="zoom-in">
+                    <span class="w-12 h-1 bg-blue-600 rounded-full"></span> Faculty Development Programmes
+                </h2>
+                
+                <div class="space-y-4">
+                    <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-sm hover:shadow-md hover:border-blue-200 transition-all duration-300" data-aos="zoom-in-up">
+                        <div class="flex items-start gap-4">
+                            <div class="mt-1 w-2 h-2 rounded-full bg-blue-600 shrink-0"></div>
+                            <div>
+                                <h3 class="font-bold text-lg text-slate-900 mb-1">AICTE Faculty Development Programme</h3>
+                                <p class="text-slate-500 text-sm">Organized under AICTE initiatives for academic and teaching enhancement.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-sm hover:shadow-md hover:border-blue-200 transition-all duration-300" data-aos="zoom-in-up" data-aos-delay="100">
+                        <div class="flex items-start gap-4">
+                            <div class="mt-1 w-2 h-2 rounded-full bg-blue-600 shrink-0"></div>
+                            <div>
+                                <h3 class="font-bold text-lg text-slate-900 mb-1">IEDC Faculty Development Programme</h3>
+                                <p class="text-slate-500 text-sm">Conducted under Innovation and Entrepreneurship Development Centre (IEDC).</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-sm hover:shadow-md hover:border-blue-200 transition-all duration-300" data-aos="zoom-in-up" data-aos-delay="200">
+                        <div class="flex items-start gap-4">
+                            <div class="mt-1 w-2 h-2 rounded-full bg-blue-600 shrink-0"></div>
+                            <div>
+                                <h3 class="font-bold text-lg text-slate-900 mb-1">IEDC Faculty Development Programme (Advanced)</h3>
+                                <p class="text-slate-500 text-sm">Advanced FDP focused on innovation, startup ecosystem, and mentoring.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer id="contact" class="bg-slate-900 text-slate-400 py-16 text-center border-t border-slate-800 relative overflow-hidden">
+        <div class="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-blue-600 via-emerald-400 to-blue-600"></div>
+        <div class="max-w-4xl mx-auto px-6" data-aos="zoom-in">
+            <h2 class="text-3xl font-bold text-white mb-10 serif">Get In Touch</h2>
+            
+            <div class="flex flex-col md:flex-row justify-center gap-8 mb-12 text-slate-300">
+                <div class="flex items-center justify-center gap-3 group">
+                    <div class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center group-hover:bg-blue-600 transition-colors">
+                        <svg class="w-5 h-5 text-blue-400 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                    </div>
+                    <span class="font-medium">+91 9656033844</span>
+                </div>
+                <div class="flex items-center justify-center gap-3 group">
+                    <div class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center group-hover:bg-blue-600 transition-colors">
+                        <svg class="w-5 h-5 text-blue-400 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <a href="mailto:frhnvm@gmail.com" class="hover:text-white font-medium transition-colors">frhnvm@gmail.com</a>
+                </div>
+                <div class="flex items-center justify-center gap-3 group">
+                    <div class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center group-hover:bg-blue-600 transition-colors">
+                        <svg class="w-5 h-5 text-blue-400 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.243-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    </div>
+                    <span class="font-medium">Narikkuni, Calicut, Kerala</span>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-800/50 pt-8 mt-8">
+                <p class="text-sm">&copy; 2026 Farhan V. M. All rights reserved.</p>
+                <p class="text-sm"> FASTUDY </p>
+                <p class="text-xs mt-3 text-slate-500 tracking-wide">
+                    
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800, 
+            once: true, 
+            offset: 50, 
+            easing: 'ease-out-cubic', 
+        });
+    </script>
+</body>
+</html>
